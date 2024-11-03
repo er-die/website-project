@@ -1,0 +1,272 @@
+html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 29;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2837;
+    flex: 5;
+    display: flexbox;
+    
+
+}
+
+.intro {
+    flex: 4;
+    align-items: center;
+}
+
+.hlogo {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+   
+}
+
+.links{
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 18px;
+}
+
+.intro{
+    align-items: flex-end;
+    gap: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    
+}
+
+.intro .text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 450px;
+
+}
+
+.text .bigtext{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.text .littletext{
+    color: #e5e7eb;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.text button{
+    background-color: #3882f6;
+    width: 150px;
+    height: 35px;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-weight: 900;
+    
+}
+
+.placeholder{
+    width: 550px;
+    height: 239px
+}
+
+.intro img{
+    width: 550px;
+    height: 239px;
+    
+}
+
+div {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+
+.info .title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards{
+    gap: 40px   ;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .container{
+    height: 200px;
+    width: 175px;
+    border-radius: 5px ;
+    border-color: #3882f6;
+}
+
+.card .container img{
+    height: 175px;
+    width: 175px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+.info .cards p{
+    width: 175px;
+    text-align: center;
+    color: darkgray;
+    font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    
+}
+
+.quote .author{
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.outro {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex: 4;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+
+.outro .container .texts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 150px ;
+    align-self: center;
+}
+
+.outro .bigtext{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+    flex: 1;
+    
+}
+
+.outro .littletext{
+    margin-bottom: 0;
+    margin-top: 0;
+    flex: 1;
+    color: #e5e7eb;
+}
+
+.outro .container{
+    background-color: #3882f6;
+    justify-content: space-between;
+    height: 190px;
+    width: 1100px;
+    border-radius: 10px;
+}
+
+.outro button{
+    background-color: #3882f6;
+    width: 150px;
+    height: 35px;
+    color: #f9faf8;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-self: center;
+    border-color: white;
+
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2837;
+    color: white;
+    justify-content: center;
+    align-items: center ;
+    flex: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
